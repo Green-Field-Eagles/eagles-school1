@@ -27,5 +27,3 @@ npm start to start front end
 
 git add .
 git commit -m ""
-References
-for react native : https://reactnative.dev/ for react : https://reactjs.org/ for expo : https://expo.io/ for redux : https://redux.js.org/ for mysql : https://www.mysql.com/ for nodejs : https://nodejs.org/en/
