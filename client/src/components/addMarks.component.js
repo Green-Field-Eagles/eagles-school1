@@ -2,7 +2,7 @@ import React ,{Component} from 'react';
 import axios from 'axios';
 import MarksList from './marksList.component'
 
-//creating admin component
+//creating marks component
 export default class addMarks extends Component {
     constructor(props){
         super(props);
