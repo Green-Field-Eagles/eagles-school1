@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap';
 
 
 
-// define edit Admin component 
+//creting edit Admin component 
 export default class EditAdmin extends Component {
     constructor(props){
         super(props);
@@ -82,7 +82,7 @@ export default class EditAdmin extends Component {
           .catch((err) => console.log(err));
 
 
-        //for take the user to the home after submite the form
+        //to take the user home after submitting the form
         //we need to uncomment this line
         // window.location = '/';
     }
