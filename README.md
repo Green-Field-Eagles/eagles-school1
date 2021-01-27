@@ -1,10 +1,13 @@
-# eagles-school1
+# project Name :
+### Eagles school system
 
-Table of Contents:
-Description
-How To Use
-References
-Author Info
+## Table of Contents
+
+### Description
+### How To Use
+### References
+### Author Info
+
 
 
 ## Description
@@ -28,3 +31,11 @@ npm start to start front end
 
 git add .
 git commit -m ""
+
+## References
+for react : https://reactjs.org/ for redux : https://redux.js.org/ for mysql : https://www.mysql.com/ for nodejs : https://nodejs.org/en/
+
+## Authors
+Sahar, Abdelhafeth, Razan, Areen, Sara
+
+
