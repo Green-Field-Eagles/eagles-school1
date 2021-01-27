@@ -1,6 +1,7 @@
 const models = require('../models/marks');
 // const body= require('body-parser');
 // var app = require('../../server/server')
+
 module.exports = {
     createMark:(req , res)=>{
         params = [ req.body.student_Id ,req.body.subjectId , req.body.first , req.body.second ,req.body.final ];
@@ -10,6 +11,7 @@ module.exports = {
             console.log(req.body)
         })
     },
+    
     // get mark for one student
     getMarks:(req,res) =>{
         params =[req.params.id];
@@ -18,6 +20,8 @@ module.exports = {
          res.send(results);
         })
     },
+    
+    // get all marks for all students
     getAllMarks:(req,res)=>{
         models.getAllMarks(function(err,results){
            

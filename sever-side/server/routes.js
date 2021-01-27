@@ -24,7 +24,7 @@ router.post('/updateOneadmin/:id', controller.admin.updateOneadmin);
 
 
 
-//mark table routes
+/* mark table routes */
 router.get('/getMarks/:id' , controller.marks.getMarks);
 router.get('/getAllMarks/' , controller.marks.getAllMarks)
 router.post('/createMark' , controller.marks.createMark);
@@ -35,5 +35,5 @@ router.get('/getOnesubject/:id', controller.subjects.getOnesubject);
 router.post('/createsubject', controller.subjects.createsubject);
 router.delete('/deleteOnesubject/:id', controller.subjects.deleteOnesubject);
 
-//  /*export the routes to the server and controller folder*/
+/*export the routes to the server and controller folder*/
 module.exports.router = router;

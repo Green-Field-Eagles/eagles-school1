@@ -3,7 +3,7 @@ import axios from 'axios';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from 'react-bootstrap';
 
-//define edit student component 
+//creating edit student component 
 export default class EditStudent extends Component {
     constructor(props){
         super(props);
@@ -81,7 +81,7 @@ export default class EditStudent extends Component {
           .catch((err) => console.log(err));
 
 
-        //for take the user to the home after submite the form
+        //to take the user home after submitting the form
         //we need to uncomment this line
         // window.location = '/';
     }
