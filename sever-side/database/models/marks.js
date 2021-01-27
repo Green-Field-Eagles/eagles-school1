@@ -12,6 +12,7 @@ module.exports = {
     },
 
     getAllMarks:(callback)=>{
+       // get all marks for each student
         var queryStr = `SELECT  students.studentName , subjects.subjectName, marks.first , marks.second , marks.final  FROM marks  INNER JOIN subjects ON marks.subjectId=subjects.subjectId INNER JOIN students ON marks.student_Id = students.studentId;`;
         db.query(queryStr , function(err,results){
             callback(err,results)
