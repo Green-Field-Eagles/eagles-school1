@@ -2,7 +2,7 @@ import React ,{Component} from 'react';
 import axios from 'axios';
 import MarksList from './marksList.component'
 
-//creating admin component
+//creating marks component
 export default class addMarks extends Component {
     constructor(props){
         super(props);
@@ -97,7 +97,7 @@ export default class addMarks extends Component {
         .catch((err) => console.log(err));
         this.retrieveData();
 
-          //for take the user to the home after submite the form
+    //to take the user home after submitting the form
     //we need to uncomment this line
     // window.location = '/';
     }

@@ -1,10 +1,15 @@
-# eagles-school1
+# project Name :
+### Eagles school system
 
-Table of Contents
-Description
-How To Use
-References
-Author Info
+## Table of Contents
+
+### Description
+### Technologies
+### Demo video
+### How To Use
+### References
+### Author Info
+
 
 
 ## Description
@@ -12,8 +17,12 @@ This website aims to be used by school teachers (admin) to register new students
 Also thier is ability to change data of the admin, or add more admins.
 
 ## Technologies
-Technology1: Express.js & Node.js Technology2: Mysql for database
-Technology3: React
+### Express.js & Node.js for back end
+### Mysql for database
+### React for front end
+
+### Demo video
+https://www.youtube.com/watch?v=7kIjlu3UUaA
 
 ## How To Use
 Installation:
@@ -21,9 +30,14 @@ Available Scripts
 In the project directory, you can run:
 
 ## node modules
-npm install
-npm server-dev to start server
-npm start to start front end
+### npm install
+### npm server-dev to start server
+### npm start to start front end
 
-git add .
-git commit -m ""
+## References
+for react : https://reactjs.org/ for mysql : https://www.mysql.com/ for Express-nodejs : https://expressjs.com/
+
+## Authors
+Sahar, Rana, Maysaa
+
+
