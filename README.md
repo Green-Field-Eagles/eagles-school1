@@ -4,6 +4,8 @@
 ## Table of Contents
 
 ### Description
+### Technologies
+### Demo video
 ### How To Use
 ### References
 ### Author Info
@@ -19,6 +21,9 @@ Technology1: Express.js & Node.js for back end
 Technology2: Mysql for database
 Technology3: React for front end
 
+### Demo video
+https://www.youtube.com/watch?v=7kIjlu3UUaA
+
 ## How To Use
 Installation:
 Available Scripts
@@ -33,9 +38,9 @@ git add .
 git commit -m ""
 
 ## References
-for react : https://reactjs.org/ for redux : https://redux.js.org/ for mysql : https://www.mysql.com/ for nodejs : https://nodejs.org/en/
+for react : https://reactjs.org/ for mysql : https://www.mysql.com/ for Express-nodejs : https://expressjs.com/
 
 ## Authors
-Sahar, Abdelhafeth, Razan, Areen, Sara
+Sahar, Rana, Maysaa
 
 
