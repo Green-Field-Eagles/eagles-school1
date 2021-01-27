@@ -45,7 +45,7 @@ module.exports = {
 
       },
     
-      //retrieve one
+      //retrieve one student
       getOne : function(req,res){
         var params = [req.params.id];
         models.getOne(params,function(err,results){
@@ -56,7 +56,8 @@ module.exports = {
         });
 
       },
-
+  
+     //update one student
       updateOne: function(req, res){
         var params = [req.body.studentName, req.body.studentpassword,req.body.userType,req.params.id];
         models.updateOne(params, function(err,results) {
