@@ -17,9 +17,9 @@ This website aims to be used by school teachers (admin) to register new students
 Also thier is ability to change data of the admin, or add more admins.
 
 ## Technologies
-Technology1: Express.js & Node.js for back end
-Technology2: Mysql for database
-Technology3: React for front end
+### Express.js & Node.js for back end
+### Mysql for database
+### React for front end
 
 ### Demo video
 https://www.youtube.com/watch?v=7kIjlu3UUaA
@@ -30,12 +30,9 @@ Available Scripts
 In the project directory, you can run:
 
 ## node modules
-npm install
-npm server-dev to start server
-npm start to start front end
-
-git add .
-git commit -m ""
+### npm install
+### npm server-dev to start server
+### npm start to start front end
 
 ## References
 for react : https://reactjs.org/ for mysql : https://www.mysql.com/ for Express-nodejs : https://expressjs.com/
