@@ -97,7 +97,7 @@ export default class addMarks extends Component {
         .catch((err) => console.log(err));
         this.retrieveData();
 
-          //for take the user to the home after submite the form
+    //to take the user home after submitting the form
     //we need to uncomment this line
     // window.location = '/';
     }
