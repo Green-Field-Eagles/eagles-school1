@@ -1,6 +1,6 @@
 # eagles-school1
 
-Table of Contents
+Table of Contents:
 Description
 How To Use
 References
@@ -12,8 +12,9 @@ This website aims to be used by school teachers (admin) to register new students
 Also thier is ability to change data of the admin, or add more admins.
 
 ## Technologies
-Technology1: Express.js & Node.js Technology2: Mysql for database
-Technology3: React
+Technology1: Express.js & Node.js for back end
+Technology2: Mysql for database
+Technology3: React for front end
 
 ## How To Use
 Installation:
